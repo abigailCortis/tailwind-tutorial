@@ -4,22 +4,25 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <section class="w-2/3 rounded-lg border border-2 p-4">
-      <img src="./images/pie-01-apple.jpg" class="h-[200px] w-[200px]" />
-      <div>
+    <section class="rounded-lg border border-2 p-4">
+      <img
+        src="./images/pie-01-apple.jpg"
+        class="inline-block h-[200px] w-[200px]"
+      />
+      <div class="inline-block px-8 align-middle">
         <p class="mb-4">Item # 0000001</p>
         <p class="mb-1">Classic Apple Pie</p>
         <p class="mb-4">Our famous homemade apple pie</p>
         <div>
-          <div>
-            <button>-</button>
+          <div class="inline-block rounded-lg border px-2 py-1">
+            <button class="pr-3">-</button>
             <span>1</span>
-            <button>+</button>
+            <button class="pl-3">+</button>
           </div>
           <button>Delete</button>
         </div>
       </div>
-      <p>$12.95</p>
+      <p class="inline-block">$12.95</p>
     </section>
   </body>
 </html>
